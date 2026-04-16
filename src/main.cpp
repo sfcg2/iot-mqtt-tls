@@ -51,7 +51,7 @@ void setup() {
   Serial.println("  IoT MQTT TLS Device");
   Serial.print("  Firmware Version: ");
   Serial.println(firmwareVersion);
-  Serial.println("========================================");
+  Serial.println("========================================     ");
   Serial.println();
   
   // Factory reset si el botón BOOT (GPIO0) está presionado al arrancar
