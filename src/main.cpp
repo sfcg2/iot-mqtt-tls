@@ -37,6 +37,7 @@ SensorData data;  // Estructura para almacenar los datos de temperatura y humeda
 time_t hora;      // Timestamp de la hora actual
 
 
+
 /**
  * Configura el dispositivo para conectarse a la red WiFi y ajusta parametros IoT
  */
