@@ -56,18 +56,18 @@
 #define MQTT_PORT 8883                            ///< Puerto seguro (TLS)
 #endif
 #ifndef MQTT_USER
-#define MQTT_USER "alvaro"                        ///< Usuario MQTT (definir vía .env)
+#define MQTT_USER "admin"                        ///< Usuario MQTT (definir vía .env)
 #endif
 #ifndef MQTT_PASSWORD
-#define MQTT_PASSWORD "supersecreto"              ///< Contraseña MQTT (definir vía .env)
+#define MQTT_PASSWORD "12345"              ///< Contraseña MQTT (definir vía .env)
 #endif
 
 // Variables de configuración de la red WiFi
 #ifndef WIFI_SSID
-#define WIFI_SSID "MI_RED_WIFI"                ///< SSID por defecto; usar aprovisionamiento
+#define WIFI_SSID "univalle"                ///< SSID por defecto; usar aprovisionamiento
 #endif
 #ifndef WIFI_PASSWORD
-#define WIFI_PASSWORD "a1b2c3d4"                  ///< Password por defecto; usar aprovisionamiento
+#define WIFI_PASSWORD "Univalle"                  ///< Password por defecto; usar aprovisionamiento
 #endif
 
 // Alias para compatibilidad con el código existente

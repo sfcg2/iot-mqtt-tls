@@ -30,6 +30,8 @@
 #include <Wire.h>
 #include <time.h>
 
+
+
 #define SCREEN_WIDTH 128    ///< Ancho de la pantalla (en pixeles)
 #define SCREEN_HEIGHT 64    ///< Alto de la pantalla (en pixeles)
 
